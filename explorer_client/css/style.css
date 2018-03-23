@@ -542,18 +542,16 @@ a:active {
 }
 
 .panel-heading {
-	background: white !important;
-	border-radius: 5px;
+	border-radius: 5px 5px 0 0;
 	padding: 15px;
 	border-bottom: 0 !important;
+	color: #fff !important;
 }
 
 .panel-heading .panel-title {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 13px;
-	color: #515d6e;
-
 	width: 85%;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -602,7 +600,6 @@ a:active {
 
 .panel-action li {
 	display: inline-block;
-	color: #515d6e;
 	margin: 0 5px;
 	cursor: pointer;
 }
